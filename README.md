@@ -1,28 +1,54 @@
-# XMedia Converter
+<h1 align="left">XMedia Converter</h1>
 
-XMedia Converter is a local media conversion tool built with Next.js + pnpm. Video/audio conversions use FFmpeg, while image conversions use Sharp (FFmpeg not required for images).
+###
 
-## Tool
-- Convert video: mp4, webm, mkv
-- Convert audio: mp3, wav, m4a, flac, ogg
-- Convert images: png, jpg, webp, avif
-- Runs locally (fast + private)
+<p align="left">XMedia Converter is a local media converter built with Next.js and pnpm.  <br>It converts video/audio using FFmpeg and converts images using Sharp.</p>
 
-## Requirements
-- Node.js 18+ (recommended 20 LTS)
-- pnpm
-- FFmpeg (audio/video only)
+###
 
-## Run (local)
+<h2 align="left">Requirements</h2>
+
+###
+
+<p align="left">- Node.js <br>- pnpm<br>- FFmpeg</p>
+
+###
+
+<h2 align="left">Run Locally</h2>
+
+###
 ```bash
 git clone https://github.com/soufianeekh/xmedia-converter.git
 cd xmedia-converter
 pnpm install
 pnpm dev
-Open: http://localhost:3000
+```
+Open:
 
-Contact
-soufianeholdings@gmail.com
+http://localhost:3000</p>
+
+
+###
+
+<h2 align="left">Built with</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo"  />
+</div>
+
+###
 
 Credits
-Made by Soufiane KH — https://github.com/soufianeekh/
+Contact
+
+Email: soufianeholdings@gmail.com
+
+Credits
+
+Made by Soufiane K.
