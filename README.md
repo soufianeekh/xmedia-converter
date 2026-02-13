@@ -1,127 +1,44 @@
-# 🎬 XMedia Converter
+# XMedia Converter
 
-A local media converter built with **Next.js** + **pnpm** for fast, clean file conversions.  
-- 🎞️ **Video/Audio** conversions use **FFmpeg**  
-- 🖼️ **Images** conversions use **Sharp** *(FFmpeg not required for images)*
-
+**XMedia Converter** is a local media conversion tool built with **Next.js** + **pnpm**. It converts **video/audio** using **FFmpeg** and converts **images** using **Sharp** (no FFmpeg required for images).
 
 ---
 
+## Tool (what it does)
 
-## ▶️ Run the app (Local)
+- Convert **video** between common containers/formats (e.g., mp4/webm/mkv)
+- Convert **audio** between common formats (e.g., mp3/wav/m4a/flac/ogg)
+- Convert **images** between modern formats (e.g., png/jpg/webp/avif)
+- Runs locally on your machine (fast + private)
 
-1) Clone the repo:
+---
+
+## Requirements
+
+- **Node.js 18+** (recommended **20 LTS**)
+- **pnpm**
+- **FFmpeg** (required for **audio/video** only)
+
+---
+
+## Run (local)
+
+1) Clone:
 ```bash
 git clone https://github.com/soufianeekh/xmedia-converter.git
 cd xmedia-converter
 ```
 
----
-
-## ✅ Requirements
-
-- 🟢 **Node.js 18+** *(recommended **20 LTS**)*  
-- 📦 **pnpm**  
-- 🎛️ **FFmpeg** *(only for audio/video)*  
-
----
-
-## 1) 🟢 Install Node.js (18+ / recommended 20)
-
-### 🪟 Windows (easy)
-1. Download and install **Node 20 LTS** from the official Node.js website  
-2. Verify installation:
-```powershell
-node -v
-npm -v
-````
-
-### 🍎 macOS (Homebrew)
-
-```bash
-brew install node@20
-node -v
-npm -v
-```
-
-### 🐧 Linux (Ubuntu/Debian)
-
-```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node -v
-npm -v
-```
-
----
-
-## 2) 📦 Install pnpm
-
-### ✅ Recommended (Corepack)
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-pnpm -v
-```
-
-### 🛠️ Alternative (npm global)
-
-```bash
-npm i -g pnpm
-pnpm -v
-```
-
----
-
-## 3) 🎛️ Install FFmpeg (Audio/Video only)
-
-### 🪟 Windows (Winget)
-
-```powershell
-winget install -e --id Gyan.FFmpeg
-```
-
-### 🍎 macOS (Homebrew)
-
-```bash
-brew install ffmpeg
-```
-
-### 🐧 Linux (Ubuntu/Debian)
-
-```bash
-sudo apt update
-sudo apt install -y ffmpeg
-```
-
-✅ Verify FFmpeg:
-
-```bash
-ffmpeg -version
-```
-
----
-
-## 4) ▶️ Run XMedia Converter locally
-
+2) Install PNPM:
 ```bash
 pnpm install
-pnpm dev
 ```
 
-
-🌐 Open:
-
-* [http://localhost:3000](http://localhost:3000)
-
----
-
-## 🧠 Notes
-
-* 🖼️ Image conversions work without FFmpeg
-* 🎞️ Large video conversions can take time (local use is best)
-* ☁️ For hosting, a worker/VPS is recommended (serverless timeouts are common)
+3) Start:
+```bash
+pnpm dev
+```
+Open: http://localhost:3000
 
 ---
 
@@ -134,4 +51,3 @@ Have a note? Send an email: **[soufianeholdings@gmail.com](mailto:soufianeholdin
 ## ❤️ Credits
 
 Made with love by **[Soufiane KH](https://github.com/soufianeekh/)** ✨
-
