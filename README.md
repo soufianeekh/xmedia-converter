@@ -4,6 +4,18 @@ A local media converter built with **Next.js** + **pnpm** for fast, clean file c
 - 🎞️ **Video/Audio** conversions use **FFmpeg**  
 - 🖼️ **Images** conversions use **Sharp** *(FFmpeg not required for images)*
 
+
+---
+
+
+## ▶️ Run the app (Local)
+
+1) Clone the repo:
+```bash
+git clone https://github.com/soufianeekh/xmedia-converter.git
+cd xmedia-converter
+```
+
 ---
 
 ## ✅ Requirements
@@ -97,6 +109,7 @@ ffmpeg -version
 pnpm install
 pnpm dev
 ```
+
 
 🌐 Open:
 
