@@ -1,53 +1,28 @@
 # XMedia Converter
 
-**XMedia Converter** is a local media conversion tool built with **Next.js** + **pnpm**. It converts **video/audio** using **FFmpeg** and converts **images** using **Sharp** (no FFmpeg required for images).
+XMedia Converter is a local media conversion tool built with Next.js + pnpm. Video/audio conversions use FFmpeg, while image conversions use Sharp (FFmpeg not required for images).
 
----
-
-## Tool (what it does)
-
-- Convert **video** between common containers/formats (e.g., mp4/webm/mkv)
-- Convert **audio** between common formats (e.g., mp3/wav/m4a/flac/ogg)
-- Convert **images** between modern formats (e.g., png/jpg/webp/avif)
-- Runs locally on your machine (fast + private)
-
----
+## Tool
+- Convert video: mp4, webm, mkv
+- Convert audio: mp3, wav, m4a, flac, ogg
+- Convert images: png, jpg, webp, avif
+- Runs locally (fast + private)
 
 ## Requirements
-
-- **Node.js 18+** (recommended **20 LTS**)
-- **pnpm**
-- **FFmpeg** (required for **audio/video** only)
-
----
+- Node.js 18+ (recommended 20 LTS)
+- pnpm
+- FFmpeg (audio/video only)
 
 ## Run (local)
-
-1) Clone:
 ```bash
 git clone https://github.com/soufianeekh/xmedia-converter.git
 cd xmedia-converter
-```
-
-2) Install PNPM:
-```bash
 pnpm install
-```
-
-3) Start:
-```bash
 pnpm dev
-```
 Open: http://localhost:3000
 
----
+Contact
+soufianeholdings@gmail.com
 
-## ✉️ Contact
-
-Have a note? Send an email: **[soufianeholdings@gmail.com](mailto:soufianeholdings@gmail.com)** 📩
-
----
-
-## ❤️ Credits
-
-Made with love by **[Soufiane KH](https://github.com/soufianeekh/)** ✨
+Credits
+Made by Soufiane KH — https://github.com/soufianeekh/
